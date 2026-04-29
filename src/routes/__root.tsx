@@ -33,11 +33,15 @@ export const Route = createRootRoute({
       { title: "The Atlas Archive — Your Stellar Nest" },
       { name: "description", content: "A mechanical owl named Atlas keeps watch over your Stellar wallet." },
       { name: "author", content: "The Atlas Archive" },
-      { property: "og:title", content: "The Atlas Archive" },
-      { property: "og:description", content: "Atlas, the brass-and-midnight owl, tends to your Stellar nest." },
+      { property: "og:title", content: "The Atlas Archive — Your Stellar Nest" },
+      { property: "og:description", content: "A mechanical owl named Atlas keeps watch over your Stellar wallet." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "The Atlas Archive — Your Stellar Nest" },
+      { name: "twitter:description", content: "A mechanical owl named Atlas keeps watch over your Stellar wallet." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f781af17-8fe1-4b91-8cf3-b1ca35e815f3/id-preview-69caffc4--14a36a64-af15-408e-a336-e8bec70e6dc0.lovable.app-1777489782620.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f781af17-8fe1-4b91-8cf3-b1ca35e815f3/id-preview-69caffc4--14a36a64-af15-408e-a336-e8bec70e6dc0.lovable.app-1777489782620.png" },
     ],
     links: [
       {
