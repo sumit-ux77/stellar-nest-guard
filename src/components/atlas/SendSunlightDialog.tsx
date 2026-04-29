@@ -93,7 +93,7 @@ export function SendSunlightDialog({ open, onOpenChange, source, canSign, signXD
       ? "*adjusting the lens…*"
       : status === "idle"
       ? "Whisper an address into the ear-trumpet, and an amount of sunlight to send."
-      : Atlas.confirmSend(amount || "0", status === "checking" ? "active" : (status as "active" | "new" | "unknown"));
+      : Atlas.confirmSend(amount || "0", status as "active" | "new" | "unknown");
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
